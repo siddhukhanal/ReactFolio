@@ -26,7 +26,7 @@ export const Hero = () => {
           <img 
             src="/public/siddharatha photo.jpg" 
             alt="Siddharatha Khanal - Profile" 
-            className="w-full h-full object-cover" 
+            className="w-100% h-100% object-cover" 
             loading="lazy"
           />
         </div>
@@ -46,16 +46,16 @@ export const Hero = () => {
         </p>
         <div ref={buttonsRef} className="space-x-4 opacity-0">
           <a
-            href="siddharatha-khanal-cv.pdf"
-            download
-            className="bg-primary text-white font-bold py-3 px-8 rounded-full hover:bg-primary-dark transition-all transform hover:-translate-y-0.5 inline-flex items-center"
-          >
+              href="./portfolio showcase/CV.pdf" 
+              download
+              className="text-gray-800 font-medium hover:text-primary transition-colors"
+            >
             Download CV
           </a>
           <a
-            href="#contact"
-            className="bg-white text-primary border-2 border-primary font-bold py-3 px-8 rounded-full hover:bg-primary hover:text-white transition-all transform hover:-translate-y-0.5 inline-flex items-center"
-          >
+              href="#contact"
+              className="bg-primary text-white font-bold py-2.5 px-6 rounded-full hover:bg-primary-dark transition-all transform hover:-translate-y-0.5 inline-flex items-center text-sm"
+            >
             Hire Me
           </a>
         </div>

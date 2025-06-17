@@ -22,7 +22,7 @@ export const About = () => {
               <img 
                 src="/public/siddharatha photo.jpg" 
                 alt="Siddharatha Khanal - About Me" 
-                className="w-full h-full object-cover" 
+                className="w-100% h-100% object-cover" 
                 loading="lazy"
               />
             </div>

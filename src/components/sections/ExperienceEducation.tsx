@@ -29,18 +29,18 @@ export const ExperienceEducation = () => {
       location: 'Sanepa, Lalitpur' 
     },
     { 
-      school: 'Sagarmatha College Of Science & Technology', 
-      degree: 'Bachelor', 
-      field: 'BSc CSIT',
-      years: '2075-2080', 
-      location: 'Sanepa, Lalitpur' 
+      school: 'DAV COllege', 
+      degree: '+2', 
+      field: 'Science',
+      years: '2073', 
+      location: 'Jawalakhel, Lalitpur' 
     },
     { 
-      school: 'Sagarmatha College Of Science & Technology', 
-      degree: 'Bachelor', 
+      school: 'Gyanaodaya Higher Secondary School', 
+      degree: 'SLC', 
       field: 'BSc CSIT',
-      years: '2075-2080', 
-      location: 'Sanepa, Lalitpur' 
+      years: '2071', 
+      location: 'Bafal, Kathmandu' 
     },
   ];
 
@@ -89,6 +89,15 @@ export const ExperienceEducation = () => {
 
   const educationColRef = useScrollAnimation<HTMLDivElement>('animate-fadeInLeft');
   const experienceColRef = useScrollAnimation<HTMLDivElement>('animate-fadeInRight', { delay: 100 });
+
+  const knownHighlightPrefixes = [
+    "Leadership and team management:",
+    "UI/UX & Front-End Design:",
+    "Graphic Design and & ERP integration:",
+    "Product Management and Logistics:",
+    "UI/UX Design:",
+    "Logo Design:"
+  ];
 
   return (
     <section id="experience-education" className="py-16 bg-gray-50">
@@ -141,7 +150,26 @@ export const ExperienceEducation = () => {
                   {item.description && <p className="text-gray-800 text-sm mb-2 leading-relaxed">{item.description}</p>}
                   {item.responsibilities && (
                     <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 pl-1 leading-relaxed">
-                      {item.responsibilities.map((resp, i) => <li key={i}>{resp}</li>)}
+                      {item.responsibilities.map((resp, i) => {
+                        let matchedPrefix = null;
+                        for (const prefix of knownHighlightPrefixes) {
+                          if (resp.startsWith(prefix)) {
+                            matchedPrefix = prefix;
+                            break;
+                          }
+                        }
+
+                        if (matchedPrefix) {
+                          const restOfText = resp.substring(matchedPrefix.length);
+                          return (
+                            <li key={i}>
+                              <strong className="text-gray-900 font-semibold">{matchedPrefix}</strong>
+                              {restOfText}
+                            </li>
+                          );
+                        }
+                        return <li key={i}>{resp}</li>;
+                      })}
                     </ul>
                   )}
                 </div>

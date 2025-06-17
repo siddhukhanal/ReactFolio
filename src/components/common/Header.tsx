@@ -15,7 +15,7 @@ export const Header = () => (
         <ul className="flex items-center space-x-6">
           <li>
             <a
-              href="siddharatha-khanal-cv.pdf" 
+              href="./portfolio showcase/CV.pdf" 
               download
               className="text-gray-800 font-medium hover:text-primary transition-colors"
             >
