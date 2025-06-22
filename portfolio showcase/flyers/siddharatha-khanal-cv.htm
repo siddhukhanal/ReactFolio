@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="importmap">
+    {
+      "imports": {
+        "@google/genai": "https://esm.sh/@google/genai@^0.7.0",
+        "react": "https://esm.sh/react@^19.0.0",
+        "react/": "https://esm.sh/react@^19.0.0/",
+        "react-dom/": "https://esm.sh/react-dom@^19.0.0/"
+      }
+    }
+  </script>
+  <script type="module" src="/@vite/client"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siddharatha Khanal - Creative Designer & Developer</title>
+  <link rel="icon" type="public/png" href="/public/logo-light.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#FF5733', // Main brand color, orange-red
+            'primary-dark': '#e04a22', // Darker shade for hover states
+            'primary-light': '#ff704d', // Lighter shade for focus rings / highlights
+          },
+          ringColor: theme => ({ // For focus rings
+            ...theme('colors'),
+            'primary': theme('colors.primary'),
+            'primary-light': theme('colors.primary-light'),
+          }),
+          animation: {
+            marquee: 'marquee 40s linear infinite',
+            slideDownEnter: 'slideDownEnter 0.3s ease-out forwards',
+            fadeInUp: 'fadeInUp 0.6s ease-out forwards',
+            fadeInLeft: 'fadeInLeft 0.6s ease-out forwards',
+            fadeInRight: 'fadeInRight 0.6s ease-out forwards',
+            scaleIn: 'scaleIn 0.5s ease-out forwards',
+            modalEnter: 'modalEnter 0.3s ease-out forwards',
+            wiggle: 'wiggle 0.6s ease-in-out',
+            waterRipple: 'waterRipple 0.7s ease-out forwards',
+            // rippleTargetImpact removed
+          },
+          keyframes: {
+            marquee: {
+              '0%': { transform: 'translateX(0%)' },
+              '100%': { transform: 'translateX(-50%)' },
+            },
+            slideDownEnter: {
+              '0%': { transform: 'translateY(-100%)', opacity: '0' },
+              '100%': { transform: 'translateY(0)', opacity: '1' },
+            },
+            fadeInUp: {
+              '0%': { opacity: '0', transform: 'translateY(20px)' },
+              '100%': { opacity: '1', transform: 'translateY(0)' },
+            },
+            fadeInLeft: {
+              '0%': { opacity: '0', transform: 'translateX(-20px)' },
+              '100%': { opacity: '1', transform: 'translateX(0)' },
+            },
+            fadeInRight: {
+              '0%': { opacity: '0', transform: 'translateX(20px)' },
+              '100%': { opacity: '1', transform: 'translateX(0)' },
+            },
+            scaleIn: {
+              '0%': { opacity: '0', transform: 'scale(0.95)' },
+              '100%': { opacity: '1', transform: 'scale(1)' },
+            },
+            modalEnter: {
+              '0%': { opacity: '0', transform: 'scale(0.95) translateY(10px)' },
+              '100%': { opacity: '1', transform: 'scale(1) translateY(0)' },
+            },
+            wiggle: {
+              '0%, 100%': { transform: 'rotate(-3deg)' },
+              '25%': { transform: 'rotate(3deg)' },
+              '50%': { transform: 'rotate(-3deg)' },
+              '75%': { transform: 'rotate(3deg)' },
+            },
+            waterRipple: {
+              '0%': { width: '0px', height: '0px', borderWidth: '30px', opacity: '0.5', borderColor: 'rgba(255, 87, 51, 0.4)' },
+              '100%': { width: '250px', height: '250px', borderWidth: '0px', opacity: '0', borderColor: 'rgba(255, 87, 51, 0)' }
+            },
+            // rippleTargetImpact keyframes removed
+          }
+        }
+      }
+    }
+  </script>
+
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .section-title-underline::after {
+        content: '';
+        display: block;
+        width: 60px; /* w-16 */
+        height: 4px; /* h-1 */
+        background-color: #FF5733; /* bg-primary */
+        margin: 10px auto 0; /* mt-2.5 mx-auto */
+      }
+    }
+    /* Accessibility: Respect prefers-reduced-motion */
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+      .animate-marquee { /* Specifically stop marquee if it's too much */
+        animation-play-state: paused !important;
+      }
+      .cursor-dot, .cursor-outline { /* Hide custom cursor on reduced motion */
+        display: none !important;
+      }
+      .click-ripple {
+        display: none !important;
+      }
+      /* .animate-rippleTargetImpact removed */
+    }
+
+    /* Custom Cursor Styles */
+    .cursor-dot {
+      position: fixed;
+      width: 8px;
+      height: 8px;
+      background-color: #FF5733; /* primary color */
+      border-radius: 50%;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      z-index: 10000; /* Ensure above most elements */
+      transition: opacity 0.3s ease-out, transform 0.01s linear; /* Fast transform for dot */
+      opacity: 0; /* Hidden by default, shown by JS */
+    }
+
+    .cursor-outline {
+      position: fixed;
+      width: 30px;
+      height: 30px;
+      border: 2px solid #FF5733; /* primary color */
+      border-radius: 50%;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      z-index: 9999; /* Ensure above most elements */
+      transition: transform 0.1s ease-out, opacity 0.3s ease-out; /* Slower transform for outline lag */
+      opacity: 0; /* Hidden by default, shown by JS */
+    }
+
+    /* Ripple effect direct style */
+    .click-ripple {
+      position: fixed;
+      border-radius: 50%;
+      border-style: solid;
+      /* background-color: transparent; /* Border will provide color */
+      /* The animation will set initial border-width, color and opacity */
+      width: 0px; 
+      height: 0px;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      z-index: 9998; /* Below cursor, above content */
+    }
+
+  </style>
+</head>
+<body class="font-sans bg-white text-gray-800 leading-relaxed text-base">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx?t=1750148231583"></script>
+</body>
+</html>
