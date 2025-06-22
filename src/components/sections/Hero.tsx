@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useScrollAnimation } from '../../hooks/useScrollAnimation';
 
 export const Hero = () => {
-  const roles = ["UI/UX DESIGNER", "GRAPHICS DESIGNER", "WEB DESIGNER"];
+  const roles = ["UI/UX DESIGNER", "GRAPHICS DESIGNER", "WEB DESIGNER", "Product Designer"];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
 
   useEffect(() => {
@@ -22,11 +22,11 @@ export const Hero = () => {
   return (
     <section id="hero" className="bg-gray-50 py-20 text-center">
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div ref={imageRef} className="mx-auto w-40 h-40 sm:w-48 sm:h-48 rounded-full bg-primary mb-8 shadow-lg overflow-hidden opacity-0">
+        <div ref={imageRef} className="mx-auto w-40 h-200 sm:w-48 sm:h-48 rounded-full bg-primary mb-8 shadow-lg overflow-hidden opacity-0">
           <img 
-            src="/public/siddharatha photo.jpg" 
+            src="/public/siddharatha.jpg" 
             alt="Siddharatha Khanal - Profile" 
-            className="w-100% h-100% object-cover" 
+            className="w-100% h-1000px object-cover" 
             loading="lazy"
           />
         </div>

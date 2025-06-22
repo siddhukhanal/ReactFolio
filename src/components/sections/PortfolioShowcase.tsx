@@ -96,10 +96,16 @@ export const PortfolioShowcase = () => {
       imagePlaceholder: '/portfolio showcase/even management.png',
       modalImages: [
         {
+          imagePlaceholder: '/portfolio showcase/UI_UX/HQD.jpg',
+          caption: 'Event Detail Page',
+          imageDescription: 'The event detail page provides comprehensive information about a specific event, including schedule, speakers, and location, with a clear call-to-action for registration.'
+        },
+        {
           imagePlaceholder: '/portfolio showcase/UI_UX/wine.png',
           caption: 'Event Listing Screen',
           imageDescription: 'The main event listing screen, designed for easy browsing and filtering. Key information is presented clearly to help users make quick decisions.'
         },
+        
         {
           imagePlaceholder: '/portfolio showcase/UI_UX/mobile.png',
           caption: 'Event Detail Page',

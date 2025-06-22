@@ -25,22 +25,22 @@ export const Footer = () => (
         </ul>
       </nav>
       <div className="flex justify-center space-x-6 mb-8 text-2xl">
-        <a href="#facebook-siddharatha" aria-label="Facebook" title="Facebook" className="text-gray-300 hover:text-primary transition-colors">
+        <a href="https://www.facebook.com/siddharthasiddhu.khanal" aria-label="Facebook" title="Facebook" className="text-gray-300 hover:text-primary transition-colors">
           <IconFacebook />
         </a>
-        <a href="#twitter-siddharatha" aria-label="Twitter X" title="Twitter X" className="text-gray-300 hover:text-primary transition-colors">
+        <a href="https://x.com/khanal_siddhu" aria-label="Twitter X" title="Twitter X" className="text-gray-300 hover:text-primary transition-colors">
           <IconTwitterX />
         </a>
         <a href="#instagram-siddharatha" aria-label="Instagram" title="Instagram" className="text-gray-300 hover:text-primary transition-colors">
           <IconInstagram />
         </a>
-        <a href="#linkedin-siddharatha" aria-label="LinkedIn" title="LinkedIn" className="text-gray-300 hover:text-primary transition-colors">
+        <a href="https://www.linkedin.com/in/siddhu-khanal-6807a2179/" aria-label="LinkedIn" title="LinkedIn" className="text-gray-300 hover:text-primary transition-colors">
           <IconLinkedIn />
         </a>
-        <a href="#dribbble-siddharatha" aria-label="Dribbble" title="Dribbble" className="text-gray-300 hover:text-primary transition-colors">
+        <a href="https://github.com/siddhukhanal" aria-label="GitHub" title="GitHUb" className="text-gray-300 hover:text-primary transition-colors">
           <IconDribbble />
         </a>
-        <a href="#behance-siddharatha" aria-label="Behance" title="Behance" className="text-gray-300 hover:text-primary transition-colors">
+        <a href="https://www.behance.net/siddhukhanal" aria-label="Behance" title="Behance" className="text-gray-300 hover:text-primary transition-colors">
           <IconBehance />
         </a>
       </div>

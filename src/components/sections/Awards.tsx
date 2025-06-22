@@ -16,21 +16,21 @@ interface AwardItem {
 export const Awards = () => {
   const awardsData: AwardItem[] = [
     {
-      title: 'Innovative Design Award',
-      year: '2023',
-      description: 'Recognized for outstanding creativity and innovation in UI/UX design for the "ConnectApp" project.',
+      title: 'Graphics Design Principles',
+      year: 'Udemy',
+      description: 'Along with the different Graphic Design Courses from different sources this is one of the first course I  have taken to learn the basics of Graphic Design.',
       icon: <IconAward />,
     },
     {
-      title: 'UserExperience Excellence',
-      year: '2022',
-      description: 'Awarded for exceptional user-centric design approach in the "HealthTrack" mobile application.',
+      title: 'UI/UX Using Figma',
+      year: 'Linkedin Learning',
+      description: 'I took different courses for UI/UX design this one of the very first step that I have stepped into to enhance my designing skills',
       icon: <IconTrophy />,
     },
     {
-      title: 'Best Visual Design',
-      year: '2021',
-      description: 'Commended for aesthetically pleasing and impactful visual design in the "EcoSavers" website project.',
+      title: 'HTML CSS & Javascript Basic to Advance',
+      year: 'Linkedin Learning',
+      description: 'Besides my computer science background in my college this course helped me to get the better understanding of website functionality and user interface.',
       icon: <IconCode />,
     },
   ];
@@ -38,7 +38,7 @@ export const Awards = () => {
   return (
     <section id="awards" className="py-16 bg-gray-50">
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionTitle>My Award Winning <span className="text-primary">Journey</span></SectionTitle>
+        <SectionTitle>My <span className="text-primary">Certificates</span></SectionTitle>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {awardsData.map((award, index) => {
             // eslint-disable-next-line react-hooks/rules-of-hooks

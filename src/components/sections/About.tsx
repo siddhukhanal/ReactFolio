@@ -20,9 +20,9 @@ export const About = () => {
           <div ref={imageRef} className="lg:w-1/3 opacity-0">
             <div className="w-64 h-64 sm:w-80 sm:h-80 mx-auto rounded-xl shadow-xl overflow-hidden">
               <img 
-                src="/public/siddharatha photo.jpg" 
+                src="/public/2.jpeg" 
                 alt="Siddharatha Khanal - About Me" 
-                className="w-100% h-100% object-cover" 
+                className="w-full h-2000px object-cover" 
                 loading="lazy"
               />
             </div>

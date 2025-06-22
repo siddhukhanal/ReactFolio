@@ -14,19 +14,19 @@ interface Testimonial {
 export const Testimonials = () => {
   const testimonialData: Testimonial[] = [
     {
-      name: 'Karina Bolds',
-      role: 'CEO',
-      company: 'Innovatech Solutions',
+      name: 'Sujan Giri',
+      role: 'Senior Backend Developer',
+      company: 'Curves and Colors',
       quote: "Siddharatha's designs are not only visually stunning but also incredibly intuitive. He transformed our user experience and we've seen a significant increase in engagement since the redesign. Highly recommended!",
-      avatarPlaceholder: 'KB',
+      avatarPlaceholder: 'SG',
       rating: 5,
     },
     {
-      name: 'Paulo Minalda',
-      role: 'Project Manager',
-      company: 'StartUp Hub',
-      quote: "Working with Siddharatha was a breeze. He's a great communicator, understood our vision perfectly, and delivered exceptional work on a tight deadline. His attention to detail is remarkable.",
-      avatarPlaceholder: 'PM',
+      name: 'Bigesh Benzankar',
+      role: 'Senior Frontend Developer/ Odoo Developer',
+      company: 'Nepa Wholesale',
+      quote: "Working with Sidharatha was a fantastic experience. His creativity in designing banners and images for our website always exceeded expectations, bringing fresh and engaging visuals to life. He was incredibly reliable and always delivered high-quality work on time. A true asset to any team!",
+      avatarPlaceholder: 'BB',
       rating: 5,
     },
   ];

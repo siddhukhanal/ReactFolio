@@ -158,14 +158,14 @@ export const Contact = () => {
           <div ref={infoRef} className="flex-1 lg:w-2/5 text-gray-300 opacity-0">
             <h3 className="text-2xl font-semibold text-primary mb-6">Contact Information</h3>
             <p className="mb-3"><strong>Address:</strong> kalanki Kathmandu, Nepal</p>
-            <p className="mb-3"><strong>Email:</strong> <a href="mailto:siddharatha.khanal@example.com" className="hover:text-primary transition-colors">siddharatha.khanal@example.com</a></p>
+            <p className="mb-3"><strong>Email:</strong> <a href="siddhukhanal@gnmail.com" className="hover:text-primary transition-colors">siddhukhanal@gmail.com</a></p>
             <p className="mb-3"><strong>Phone:</strong> <a href="tel:+9779861099262" className="hover:text-primary transition-colors">+977 9861099262</a></p>
             <p className="mb-6"><strong>Availability:</strong> Mon - Fri, 9:00 AM - 6:00 PM (GMT+5:45)</p>
             <h3 className="text-xl font-semibold text-primary mt-8 mb-4">Connect With Me</h3>
             <div className="flex space-x-4 text-2xl">
-              <a href="#linkedin-siddharatha" aria-label="LinkedIn" title="LinkedIn" className="text-gray-300 hover:text-primary transition-colors"><IconLinkedIn /></a>
-              <a href="#dribbble-siddharatha" aria-label="Dribbble" title="Dribbble" className="text-gray-300 hover:text-primary transition-colors"><IconDribbble /></a>
-              <a href="#behance-siddharatha" aria-label="Behance" title="Behance" className="text-gray-300 hover:text-primary transition-colors"><IconBehance /></a>
+              <a href="https://www.linkedin.com/in/siddhu-khanal-6807a2179/" aria-label="LinkedIn" title="LinkedIn" className="text-gray-300 hover:text-primary transition-colors"><IconLinkedIn /></a>
+              <a href="https://github.com/siddhukhanal" aria-label="GitHub" title="GitHub" className="text-gray-300 hover:text-primary transition-colors"><IconDribbble /></a>
+              <a href="https://www.behance.net/siddhukhanal" aria-label="Behance" title="Behance" className="text-gray-300 hover:text-primary transition-colors"><IconBehance /></a>
             </div>
           </div>
         </div>

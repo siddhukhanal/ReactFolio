@@ -47,7 +47,7 @@ export const ExperienceEducation = () => {
   const experience: ExperienceItem[] = [
     {
       company: 'Link Plus',
-      role: 'Senior/ Lead Designer',
+      role: 'Senior Web Designer',
       years: 'MARCH 2024 - PRESENT',
       description: 'Working as a Senior/ Lead designer at Link plus since one & half year where I am actively involved in managing products for different stores, store related design and design for the website while actively working as a front end designer as well.',
       responsibilities: [
