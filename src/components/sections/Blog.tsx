@@ -32,9 +32,9 @@ export const Blog = () => {
       title: 'The Art Behind the Pixels: Secrets of UI/UX Design',
       date: 'October 26, 2023',
       excerpt: 'Dive deep into the principles that make a user interface not just functional but delightful. Exploring color theory, typography, and interaction design.',
-      imagePlaceholder: '/public/portfolio showcase/mani1.png',
+      imagePlaceholder: './public/portfolio showcase/mani1.png',
       galleryImages: [
-        { imagePlaceholder: '/public/portfolio showcase/ui-ux.jpg', caption: 'Exploring Color Theory' },
+        { imagePlaceholder: '/portfolio showcase/ui-ux.jpg', caption: 'Exploring Color Theory' },
         { imagePlaceholder: 'https://placehold.co/800x600/f39c12/FFF?text=Art+Pixels+Gallery+2', caption: 'Typography in UI' },
         { imagePlaceholder: 'https://placehold.co/800x600/3498db/FFF?text=Art+Pixels+Gallery+3', caption: 'Interaction Design Patterns' },
       ],

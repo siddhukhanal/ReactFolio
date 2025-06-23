@@ -33,20 +33,20 @@ export const PortfolioShowcase = () => {
       category: 'Photomanipulations',
       shortDescription: 'A collection of creative photomanipulation projects showcasing various digital art techniques.',
       longDescription: 'This collection features diverse photomanipulation pieces, blending reality with imagination. Each project explores different themes and technical skills in Adobe Photoshop, focusing on seamless integration, lighting, and storytelling to create compelling visual narratives.',
-      imagePlaceholder: '/portfolio showcase/mani1.png',
+      imagePlaceholder: './public/portfolio showcase/mani1.png',
       modalImages: [
         {
-          imagePlaceholder: '/portfolio showcase/clouds.png',
+          imagePlaceholder: './public/portfolio showcase/clouds.png',
           caption: 'Surreal Cloudscape Manipulation',
           imageDescription: 'This piece combines multiple cloud textures and lighting effects to create a dreamlike atmosphere. Advanced masking and color grading were used to achieve a seamless blend.'
         },
         {
-          imagePlaceholder: '/portfolio showcase/movie-posters.png',
+          imagePlaceholder: './public/portfolio showcase/movie-posters.png',
           caption: 'Concept Movie Poster Design',
           imageDescription: 'A conceptual movie poster designed to evoke a sense of mystery and adventure, utilizing strong typography and cinematic lighting.'
         },
         {
-          imagePlaceholder: '/portfolio showcase/Halloween Night Party.png',
+          imagePlaceholder: './public/portfolio showcase/Halloween Night Party.png',
           caption: 'Halloween Themed Flyer/Poster',
           imageDescription: 'A vibrant and spooky flyer design for a Halloween event, focusing on high-impact visuals and clear event details.'
         },
@@ -58,30 +58,30 @@ export const PortfolioShowcase = () => {
       category: 'Cover Designs',
       shortDescription: 'Professional book cover designs tailored to various genres, aiming to capture attention and convey story essence.',
       longDescription: 'A showcase of book cover designs created for authors and publishers. Each cover is thoughtfully designed to reflect the genre, themes, and target audience of the book, utilizing typography, imagery, and layout to create an impactful first impression.',
-      imagePlaceholder: '/portfolio showcase/book cover 3.png',
+      imagePlaceholder: './public/portfolio showcase/book cover 3.png',
       modalImages: [
         {
-          imagePlaceholder: '/portfolio showcase/arcane.png',
+          imagePlaceholder: './public/portfolio showcase/arcane.png',
           caption: 'Fantasy Book Cover Example',
           imageDescription: 'This fantasy cover aims to draw the reader into a world of magic and adventure with its evocative imagery and title treatment.'
         },
         {
-          imagePlaceholder: '/portfolio showcase/cutlass.png',
+          imagePlaceholder: './public/portfolio showcase/cutlass.png',
           caption: 'Thriller Book Cover Design',
           imageDescription: 'Designed to create suspense and intrigue, this thriller cover uses dark tones and a striking central image to hint at the story within.'
         },
         {
-          imagePlaceholder: '/portfolio showcase/book cover 3.png',
+          imagePlaceholder: './public/portfolio showcase/book cover 3.png',
           caption: 'Sci-Fi Book Cover Art',
           imageDescription: 'A futuristic sci-fi book cover featuring bold typography and a cosmic backdrop, perfect for an epic space opera.'
         },
          {
-          imagePlaceholder: '/portfolio showcase/forsted nymph.png',
+          imagePlaceholder: './public/portfolio showcase/forsted nymph.png',
           caption: 'Sci-Fi Book Cover Art',
           imageDescription: 'A futuristic sci-fi book cover featuring bold typography and a cosmic backdrop, perfect for an epic space opera.'
         },
          {
-          imagePlaceholder: '/portfolio showcase/book cover 4.png',
+          imagePlaceholder: './public/portfolio showcase/book cover 4.png',
           caption: 'Sci-Fi Book Cover Art',
           imageDescription: 'A futuristic sci-fi book cover featuring bold typography and a cosmic backdrop, perfect for an epic space opera.'
         },
@@ -93,36 +93,36 @@ export const PortfolioShowcase = () => {
       category: 'UI/UX',
       shortDescription: 'UI/UX design for an event management application, focusing on intuitive navigation and user engagement.',
       longDescription: 'This project involved designing the user interface and experience for an event management platform. The goal was to create a seamless and intuitive application for users to discover, register for, and manage events, with features like personalized recommendations and interactive schedules.',
-      imagePlaceholder: '/portfolio showcase/even management.png',
+      imagePlaceholder: './public/portfolio showcase/even management.png',
       modalImages: [
         {
-          imagePlaceholder: '/portfolio showcase/UI_UX/HQD.jpg',
+          imagePlaceholder: './public/portfolio showcase/UI_UX/HQD.jpg',
           caption: 'Event Detail Page',
           imageDescription: 'The event detail page provides comprehensive information about a specific event, including schedule, speakers, and location, with a clear call-to-action for registration.'
         },
         {
-          imagePlaceholder: '/portfolio showcase/UI_UX/wine.png',
+          imagePlaceholder: './public/portfolio showcase/UI_UX/wine.png',
           caption: 'Event Listing Screen',
           imageDescription: 'The main event listing screen, designed for easy browsing and filtering. Key information is presented clearly to help users make quick decisions.'
         },
         
         {
-          imagePlaceholder: '/portfolio showcase/UI_UX/mobile.png',
+          imagePlaceholder: './public /portfolio showcase/UI_UX/mobile.png',
           caption: 'Event Detail Page',
           imageDescription: 'The event detail page provides comprehensive information about a specific event, including schedule, speakers, and location, with a clear call-to-action for registration.'
         },
         {
-          imagePlaceholder: '/portfolio showcase/UI_UX/FEEN.png',
+          imagePlaceholder: './public/portfolio showcase/UI_UX/FEEN.png',
           caption: 'Event Detail Page',
           imageDescription: 'The event detail page provides comprehensive information about a specific event, including schedule, speakers, and location, with a clear call-to-action for registration.'
         },
         {
-          imagePlaceholder: '/portfolio showcase/UI_UX/event organizer.png',
+          imagePlaceholder: './public/portfolio showcase/UI_UX/event organizer.png',
           caption: 'Event Detail Page',
           imageDescription: 'The event detail page provides comprehensive information about a specific event, including schedule, speakers, and location, with a clear call-to-action for registration.'
         },
         {
-          imagePlaceholder: '/portfolio showcase/UI_UX/BOOK COVER.png',
+          imagePlaceholder: './public/portfolio showcase/UI_UX/BOOK COVER.png',
           caption: 'Event Detail Page',
           imageDescription: 'The event detail page provides comprehensive information about a specific event, including schedule, speakers, and location, with a clear call-to-action for registration.'
         },
@@ -132,7 +132,7 @@ export const PortfolioShowcase = () => {
           imageDescription: 'The event detail page provides comprehensive information about a specific event, including schedule, speakers, and location, with a clear call-to-action for registration.'
         },
         {
-          imagePlaceholder: '/portfolio showcase/UI_UX/Vapebin.png',
+          imagePlaceholder: './public/portfolio showcase/UI_UX/Vapebin.png',
           caption: 'Event Detail Page',
           imageDescription: 'The event detail page provides comprehensive information about a specific event, including schedule, speakers, and location, with a clear call-to-action for registration.'
         },
@@ -144,18 +144,18 @@ export const PortfolioShowcase = () => {
       category: 'Logo Design',
       shortDescription: 'Brand identity design for Cubex Solutions, reflecting innovation and reliability.',
       longDescription: 'The logo design for Cubex Solutions aimed to create a modern and memorable brand mark. The process involved understanding the company\'s values and target market, followed by concept development, iteration, and finalization of a versatile logo suitable for various applications.',
-      imagePlaceholder: '/portfolio showcase/cubex solution.png',
+      imagePlaceholder: './public/portfolio showcase/cubex solution.png',
       modalImages: [
         {
-          imagePlaceholder: '/portfolio showcase/logo/cubex solution.png',
+          imagePlaceholder: './public/portfolio showcase/logo/cubex solution.png',
           caption: 'Logo variations and color palette'
         },
         {
-          imagePlaceholder: '/portfolio showcase/logo/bear.png',
+          imagePlaceholder: './public/portfolio showcase/logo/bear.png',
           caption: 'Logo mockup on stationery'
         },
          {
-          imagePlaceholder: '/portfolio showcase/logo/vivaan.jpg',
+          imagePlaceholder: './public/portfolio showcase/logo/vivaan.jpg',
           caption: 'Logo mockup on stationery'
         },
       ],
@@ -166,38 +166,38 @@ export const PortfolioShowcase = () => {
       category: 'Printing Materials',
       shortDescription: 'A variety of flyer designs for events, promotions, and informational purposes.',
       longDescription: 'This collection includes flyer designs created for different clients and purposes, such as event promotions, product advertisements, and informational handouts. Each design focuses on clear communication, visual appeal, and adherence to brand guidelines.',
-      imagePlaceholder: '/portfolio showcase/Halloween Night Party.png',
+      imagePlaceholder: './public/portfolio showcase/Halloween Night Party.png',
       modalImages: [
         {
-          imagePlaceholder: '/portfolio showcase/flyers/Loyaltyprogram draft 02-1.png',
+          imagePlaceholder: './public/portfolio showcase/flyers/Loyaltyprogram draft 02-1.png',
           caption: 'Corporate Event Flyer'
         },
         {
-          imagePlaceholder: '/portfolio showcase/flyers/loyalty program-1.png',
+          imagePlaceholder: './public/portfolio showcase/flyers/loyalty program-1.png',
           caption: 'Product Promotion Flyer'
         },
          {
-          imagePlaceholder: '/portfolio showcase/flyers/loyalty program-2.png',
+          imagePlaceholder: './public/portfolio showcase/flyers/loyalty program-2.png',
           caption: 'Product Promotion Flyer'
         },
          {
-          imagePlaceholder: '/portfolio showcase/flyers/sales reps banner01-01.png',
+          imagePlaceholder: './public/portfolio showcase/flyers/sales reps banner01-01.png',
           caption: 'Product Promotion Flyer'
         },
         {
-          imagePlaceholder: '/portfolio showcase/flyers/dallas deals flyer01-01.png',
+          imagePlaceholder: './public/portfolio showcase/flyers/dallas deals flyer01-01.png',
           caption: 'Product Promotion Flyer'
         },
         {
-          imagePlaceholder: '/portfolio showcase/flyers/772.png',
+          imagePlaceholder: './public/portfolio showcase/flyers/772.png',
           caption: 'Product Promotion Flyer'
         },
         {
-          imagePlaceholder: '/portfolio showcase/flyers/Halloween Night Party.png',
+          imagePlaceholder: './public/portfolio showcase/flyers/Halloween Night Party.png',
           caption: 'Product Promotion Flyer'
         },
         {
-          imagePlaceholder: '/portfolio showcase/flyers/flag banner final-1.png',
+          imagePlaceholder: './public/portfolio showcase/flyers/flag banner final-1.png',
           caption: 'Product Promotion Flyer'
         },
       ],
@@ -208,38 +208,38 @@ export const PortfolioShowcase = () => {
       category: 'Social Media',
       shortDescription: 'Engaging graphics designed for various social media platforms to boost online presence and campaigns.',
       longDescription: 'A series of graphics created for social media campaigns, optimized for different platforms like Instagram, Facebook, and Twitter. The designs aim to capture attention, convey key messages effectively, and encourage user interaction, aligning with overall marketing strategies.',
-      imagePlaceholder: '/portfolio showcase/3,6,15 mg square-06.png',
+      imagePlaceholder: './public/portfolio showcase/3,6,15 mg square-06.png',
       modalImages: [
         {
-          imagePlaceholder: '/portfolio showcase/social media/e2.png',
+          imagePlaceholder: './public/portfolio showcase/social media/e2.png',
           caption: 'Instagram Post Example'
         },
         {
-          imagePlaceholder: '/portfolio showcase/social media/e1.png',
+          imagePlaceholder: './public/portfolio showcase/social media/e1.png',
           caption: 'Facebook Banner Example'
         },
          {
-          imagePlaceholder: '/portfolio showcase/social media/c2.png',
+          imagePlaceholder: './public/portfolio showcase/social media/c2.png',
           caption: 'Facebook Banner Example'
         },
         {
-          imagePlaceholder: '/portfolio showcase/social media/c3.png',
+          imagePlaceholder: './public/portfolio showcase/social media/c3.png',
           caption: 'Facebook Banner Example'
         },
         {
-          imagePlaceholder: '/portfolio showcase/social media/s1.png',
+          imagePlaceholder: './public/portfolio showcase/social media/s1.png',
           caption: 'Facebook Banner Example'
         },
         {
-          imagePlaceholder: '/portfolio showcase/social media/h2.png',
+          imagePlaceholder: './public/portfolio showcase/social media/h2.png',
           caption: 'Facebook Banner Example'
         },
         {
-          imagePlaceholder: '/portfolio showcase/social media/3,6,15 mg square-06.png',
+          imagePlaceholder: './public/portfolio showcase/social media/3,6,15 mg square-06.png',
           caption: 'Facebook Banner Example'
         },
         {
-          imagePlaceholder: '/portfolio showcase/social media/p1.png',
+          imagePlaceholder: './public/portfolio showcase/social media/p1.png',
           caption: 'Facebook Banner Example'
         },
       ],
@@ -250,15 +250,15 @@ export const PortfolioShowcase = () => {
       category: 'UI/UX',
       shortDescription: 'User interface and experience design for a restaurant mobile application, enhancing ordering and discovery.',
       longDescription: 'This project focused on designing a user-friendly mobile app for a restaurant. Key features include easy menu browsing, seamless online ordering, table reservations, and loyalty program integration. The UI was crafted to be visually appealing and intuitive, enhancing the overall customer experience.',
-      imagePlaceholder: '/portfolio showcase/mobile.png',
+      imagePlaceholder: './public/portfolio showcase/mobile.png',
       modalImages: [
         {
-          imagePlaceholder: '/portfolio showcase/mobile_menu.png',
+          imagePlaceholder: './public/portfolio showcase/mobile_menu.png',
           caption: 'Restaurant App - Menu Screen',
           imageDescription: 'The menu screen showcases various food categories with appealing visuals, making it easy for users to navigate and select items.'
         },
         {
-          imagePlaceholder: '/portfolio showcase/mobile_order.png',
+          imagePlaceholder: './public/portfolio showcase/mobile_order.png',
           caption: 'Restaurant App - Order Process',
           imageDescription: 'A streamlined order process, from adding items to the cart to checkout, designed for speed and convenience.'
         },
@@ -270,30 +270,30 @@ export const PortfolioShowcase = () => {
       category: 'Movie Posters',
       shortDescription: 'Conceptual movie poster designs exploring different visual styles and themes.',
       longDescription: 'A collection of conceptual movie posters created to showcase versatility in visual storytelling and design. Each poster aims to capture the essence of a fictional film, experimenting with typography, imagery, and mood to create compelling promotional art.',
-      imagePlaceholder: '/portfolio showcase/movie-posters.png',
+      imagePlaceholder: './public/portfolio showcase/movie-posters.png',
       modalImages: [
         {
           imagePlaceholder: '/portfolio showcase/movie posters/book cover 5.png',
           caption: 'Sci-Fi Movie Poster '
         },
         {
-          imagePlaceholder: '/portfolio showcase/movie posters/movie posters 4.png',
+          imagePlaceholder: './public/portfolio showcase/movie posters/movie posters 4.png',
           caption: 'Romance Movie Poster '
         },
         {
-          imagePlaceholder: '/portfolio showcase/movie posters/movie-posters.png',
+          imagePlaceholder: './public/portfolio showcase/movie posters/movie-posters.png',
           caption: 'Drama Movie Poster '
         },
         {
-          imagePlaceholder: '/portfolio showcase/movie posters/movie posters.png',
+          imagePlaceholder: './public/portfolio showcase/movie posters/movie posters.png',
           caption: 'Drama Movie Poster '
         },
         {
-          imagePlaceholder: '/portfolio showcase/movie posters/Blade.png',
+          imagePlaceholder: './public/portfolio showcase/movie posters/Blade.png',
           caption: 'Drama Movie Poster '
         },
         {
-          imagePlaceholder: '/portfolio showcase/movie posters/Tomb Raider.png',
+          imagePlaceholder: './public/portfolio showcase/movie posters/Tomb Raider.png',
           caption: 'Drama Movie Poster'
         },
       ],
@@ -304,30 +304,30 @@ export const PortfolioShowcase = () => {
       category: 'Website Banners',
       shortDescription: 'A series of promotional and informational banners designed for Nepa Wholesale e-commerce website.',
       longDescription: 'This project involved creating a set of website banners for Nepa Wholesale, an e-commerce platform. The banners were designed to highlight promotions, new arrivals, and key product categories, aiming to improve user engagement and drive sales. Designs were optimized for web visibility and brand consistency.',
-      imagePlaceholder: '/portfolio showcase/website banners.webp',
+      imagePlaceholder: './public/portfolio showcase/website banners.webp',
       modalImages: [
         {
-          imagePlaceholder: '/portfolio showcase/Website Banners/tpe.webp',
+          imagePlaceholder: './public/portfolio showcase/Website Banners/tpe.webp',
           caption: 'Promotional Banner Example'
         },
         {
-          imagePlaceholder: '/portfolio showcase/Website Banners/cigar.webp',
+          imagePlaceholder: './public/portfolio showcase/Website Banners/cigar.webp',
           caption: 'Category Feature Banner'
         },
          {
-          imagePlaceholder: '/portfolio showcase/Website Banners/fume pro.webp',
+          imagePlaceholder: './public/portfolio showcase/Website Banners/fume pro.webp',
           caption: 'Category Feature Banner'
         },
          {
-          imagePlaceholder: '/portfolio showcase/Website Banners/qit.webp',
+          imagePlaceholder: './public/portfolio showcase/Website Banners/qit.webp',
           caption: 'Category Feature Banner'
         },
          {
-          imagePlaceholder: '/portfolio showcase/Website Banners/HQD.webp',
+          imagePlaceholder: './public/portfolio showcase/Website Banners/HQD.webp',
           caption: 'Category Feature Banner'
         },
         {
-          imagePlaceholder: '/portfolio showcase/Website Banners/orion bar.png',
+          imagePlaceholder: './public/portfolio showcase/Website Banners/orion bar.png',
           caption: 'Category Feature Banner'
         },
       ],

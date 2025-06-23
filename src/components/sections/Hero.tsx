@@ -24,7 +24,7 @@ export const Hero = () => {
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div ref={imageRef} className="mx-auto w-40 h-200 sm:w-48 sm:h-48 rounded-full bg-primary mb-8 shadow-lg overflow-hidden opacity-0">
           <img 
-            src="/public/siddharatha.jpg" 
+            src="./siddharatha.jpg" 
             alt="Siddharatha Khanal - Profile" 
             className="w-100% h-1000px object-cover" 
             loading="lazy"
