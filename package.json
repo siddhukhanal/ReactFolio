@@ -1,6 +1,7 @@
-{"homepage": "https://siddhukhana1.github.io/ReactFolio",
+{
   "name": "reactfolio",
   "private": true,
+  "homepage": "https://siddhukhanal.github.io/ReactFolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
