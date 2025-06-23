@@ -6,7 +6,7 @@ export const Header = () => (
     <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
       <a href="#hero" aria-label="Siddharatha Khanal Home">
         <img 
-          src="/public/logo-icon.png" 
+          src="./public/logo-icon.png" 
           alt="Siddharatha Khanal Logo" 
           className="h-10 w-auto" // Added example class for sizing, adjust as needed
         />

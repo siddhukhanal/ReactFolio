@@ -107,7 +107,7 @@ export const PortfolioShowcase = () => {
         },
         
         {
-          imagePlaceholder: './public /portfolio showcase/UI_UX/mobile.png',
+          imagePlaceholder: './public/portfolio showcase/UI_UX/mobile.png',
           caption: 'Event Detail Page',
           imageDescription: 'The event detail page provides comprehensive information about a specific event, including schedule, speakers, and location, with a clear call-to-action for registration.'
         },
@@ -127,7 +127,7 @@ export const PortfolioShowcase = () => {
           imageDescription: 'The event detail page provides comprehensive information about a specific event, including schedule, speakers, and location, with a clear call-to-action for registration.'
         },
         {
-          imagePlaceholder: '/portfolio showcase/UI_UX/techmedia.png',
+          imagePlaceholder: './public/portfolio showcase/UI_UX/techmedia.png',
           caption: 'Event Detail Page',
           imageDescription: 'The event detail page provides comprehensive information about a specific event, including schedule, speakers, and location, with a clear call-to-action for registration.'
         },
@@ -273,7 +273,7 @@ export const PortfolioShowcase = () => {
       imagePlaceholder: './public/portfolio showcase/movie-posters.png',
       modalImages: [
         {
-          imagePlaceholder: '/portfolio showcase/movie posters/book cover 5.png',
+          imagePlaceholder: './public/portfolio showcase/movie posters/book cover 5.png',
           caption: 'Sci-Fi Movie Poster '
         },
         {
